@@ -20,7 +20,7 @@ module.exports = {
     .setDescription(`
 
 >>> \`invite\` - \`support\` - \`about\`
-\`ping\` - \`prefix\` \`uptime\`
+\`ping\` - \`prefix\` - \`uptime\`
 
 
 [Support](https://discord.gg/6MGtNxJNBk)
