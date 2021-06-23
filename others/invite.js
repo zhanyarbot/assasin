@@ -10,14 +10,14 @@ module.exports = {
   name: "invite",
   aliases: ["i"],
   cooldown: 8,
-  description: "**all commands**",
+  description: "**invite commands**",
   execute(message) {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
     .setDescription(`
 
-<:emoji_3:822203003859107890> [{Click here}](https://discord.com/api/oauth2/authorize?client_id=811298712348262470&permissions=8&scope=bot) **to invite the bot.**
+ [Click here](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot) **to invite the bot.**
 `)
 
   
