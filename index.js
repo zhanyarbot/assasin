@@ -226,7 +226,7 @@ Online
     const embed = new Discord.MessageEmbed()
     .setColor("PURPLE")
     .setDescription (`
- [Links]
+ 
 
 [Support](https://discord.gg/6MGtNxJNBk)
 -
