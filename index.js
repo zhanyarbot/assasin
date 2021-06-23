@@ -125,27 +125,27 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("PURPLE")
-    .setAuthor("About Rayal Bot.", "https://cdn.discordapp.com/attachments/811334922786177035/821692647096713216/PicsArt_03-14-11.44.59.png")
-    .setThumbnail(`https://cdn.discordapp.com/attachments/811334922786177035/821692647096713216/PicsArt_03-14-11.44.59.png `)
+    .setAuthor("About Qeqe Bot.", "https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024")
+    .setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/mwJmT7wkwn)
+[Support](https://discord.gg/6MGtNxJNBk)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=811298712348262470&permissions=8&scope=bot)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)
 
-**{Developers Bot}** :
-Dev/Aquaman#5186
+**{Owner Bot}** :
+Miro#4801
 
 **{Set Status}** :
 Online
 
 **{Time Create}** :
-14/3/2021
+28/4/2021
 
 **{Prefix Bot}** :
-!
+*
 
 `)
 
@@ -162,15 +162,15 @@ Online
     const embed = new Discord.MessageEmbed()
     .setColor("PURPLE")
     .setDescription (`
-<:emoji_3:822203003859107890> {Links}
+ [Links]
 
-[{Support}](https://discord.gg/mwJmT7wkwn)
+[Support](https://discord.gg/6MGtNxJNBk)
 -
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=811298712348262470&permissions=8&scope=bot)`)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**{Support  RAYAL}**`) 
-    .setThumbnail(`https://cdn.discordapp.com/attachments/811334922786177035/821692647096713216/PicsArt_03-14-11.44.59.png `)
+    .setTitle(`**{Support  QEQE}**`) 
+    .setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
     .setTimestamp()
     
     //send the Message
