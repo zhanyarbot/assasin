@@ -19,7 +19,7 @@ module.exports = {
     .setTitle(`**Qeqe Info**`)
     .setDescription(`
 
-\`invite\` - \`support\` - \`about\`
+>>> \`invite\` - \`support\` - \`about\`
 \`ping\` - \`prefix\` \`uptime\`
 
 
