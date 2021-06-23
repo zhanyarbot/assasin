@@ -15,33 +15,16 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setThumbnail(`https://cdn.discordapp.com/attachments/811334922786177035/821692647096713216/PicsArt_03-14-11.44.59.png `)
-    .setTitle(`**Rayal Help**`)
+    .setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
+    .setTitle(`**Qeqe Help**`)
     .setDescription(`
 
-<a:discord:813406342173818910>**User Commands**<a:discord:813406342173818910>
->>>>>>>>>>>>>
-<a:emoji_22:822512247561519124>\`!invite\` - \`!support\` - \`!about\`
-<a:emoji_22:822512247561519124>\`!ping\` - \`!prefix\` - \`!uptime\`
-<a:music:813460704031145986>**Music Commands**<a:music:813460704031145986>
->>>>>>><a:emoji_20:813716400408887316>>>>>>>>
-<a:dark:813714900777959444>\`!play\` - \`!skip\` - \`!skipto\`
-<a:dark:813714900777959444>\`!stop\` - \`!volume\` - \`!nowplaying\`
-<a:dark:813714900777959444>\`!shuffle\` - \`!search\` - \`!resume\`
-<a:dark:813714900777959444>\`!remove\` - \`!queue\` 
-<a:dark:813714900777959444>\`!loop\` - \`!lyrics\` - \`!radio\`
-<a:discord:813406342173818910>**Filter Commands**<a:discord:813406342173818910>
->>>>>>>>>>>>>
-<a:chap:814607523092103171>\`!filter bassboost\` - \`!filter 8D\`
-<a:chap:814607523092103171>\`!filter vaporwave\`-\`!filter tremolo\`
-<a:chap:814607523092103171>\`!filter phaser\` - \`!filter subboost\`
-<a:chap:814607523092103171>\`!filter nightcote\`-\`!filter pulsator\`
-<a:chap:814607523092103171>\`!filter vibrato\` - \`!filter clear\`
-<a:chap:814607523092103171>\`!filter surrounding\`
-**{[<a:links:813729922643263558>[Links}**
->>>>>>>>>
-[{Support}](https://discord.gg/mwJmT7wkwn)
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=811298712348262470&permissions=8&scope=bot)
+\`info\` - \`music\` -\`gif\`
+
+
+
+[Support](https://discord.gg/6MGtNxJNBk)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("PURPLE");
