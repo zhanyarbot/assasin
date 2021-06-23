@@ -83,6 +83,38 @@ client.on("message", message => {
   }
 });
 
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "baby")) {
+    let girl = [
+      "https://media.discordapp.net/attachments/699339066029768796/857304174067449877/desconhecido.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857302834416582666/Swqly_73.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857302774927458345/Swqly_27.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857302767730556968/Swqly_65.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857302743440818206/Swqly_32.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857272978189975572/davsann.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857229285437472788/taki_babygif50.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857229285089214484/luisa_5.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857191097541459968/854834185234939955.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857177191473217546/image0-29.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857176971213406208/25.gif",
+      "https://media.discordapp.net/attachments/699339066029768796/857176970702225408/tenor_1.gif"
+    ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `${message.author.username} GIRL GIFS `,
+          image: {
+            url: girl[Math.floor(Math.random() * girl.length)]
+          }
+        }
+      })
+      .catch(e => {
+        client.log.error(e);
+      });
+  }
+});
+
 client.on(`ready`, () => {	
 //////////////
 
