@@ -300,8 +300,36 @@ client.on("guildCreate" , AQUAMAN => {
    .setTitle(`There was an error executing that command.`)).catch(console.error);
  }
 
-
+ });
+  
+ client.on("guildCreate", guild => {
+  let channel = client.channels.cache.get("856109396492419073");
+  let embed = new MessageEmbed().setColor("#146DF6")
+  .setAuthor(client.user.username, client.user.avatarURL())
+  .setTitle( `✅ Join Server`)
+  .addField("🔠 **Server Name**", `${guild.name}`)
+  .addField("👑 **Server Owner**", `${guild.owner}`)
+  .addField("🆔 **Server Id**", `${guild.id}`)
+  .addField("👥 **Member Count**", `${guild.memberCount}`)
+  .setFooter(`${client.user.tag}`);
+  channel.send(embed);
 });
+
+client.on("guildDelete", guild => {
+  let channel = client.channels.cache.get("856109396492419073");
+  let embed = new MessageEmbed()
+  .setColor("#146DF6")
+  .setAuthor(client.user.username, client.user.avatarURL())
+  .setTitle( `❌ Left Server`)
+  .addField("🔠 **Server Name**", `${guild.name}`)
+  .addField("👑 **Server Owner**", `${guild.owner}`)
+  .addField("🆔 **Server Id**", `${guild.id}`)
+  .addField("👥 **Member Count**", `${guild.memberCount}`)
+  .setFooter(`${client.user.tag}`);
+  channel.send(embed);
+});
+
+
 function delay(delayInms) {
  return new Promise(resolve => {
    setTimeout(() => {
