@@ -21,7 +21,7 @@ module.exports = {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id);
       const endembed = new MessageEmbed().setColor("PURPLE")
-        .setAuthor(`Music Queue ended.`, "https://cdn.discordapp.com/attachments/811334922786177035/821692647096713216/PicsArt_03-14-11.44.59.png")
+        .setAuthor(`Music Queue ended.`, "")
       return queue.textChannel.send(endembed).catch(console.error);
     }
 
@@ -138,9 +138,9 @@ module.exports = {
         .setColor("PURPLE")
         .setImage(thumb)
         .setThumbnail(`https://cdn.discordapp.com/attachments/811334922786177035/821692647096713216/PicsArt_03-14-11.44.59.png `)
-         .addField("<:emoji_4:822203026776391711> Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
-        .addField("<:emoji_3:822203003859107890> Length:", `\`${song.duration} Minutes\``, true)
-        .addField("<:emoji_1:822202947646783519> Volume:", `\`100\``, true)
+         .addField(" Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
+        .addField(" Length:", `\`${song.duration} Minutes\``, true)
+        .addField(" Volume:", `\`100\``, true)
 
       var playingMessage = await queue.textChannel.send(newsong);
       
