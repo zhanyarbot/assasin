@@ -184,6 +184,38 @@ client.on("message", message => {
   }
 });
 
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "cartoon")) {
+    let girl = [
+      "https://media.discordapp.net/attachments/755169627872428134/859514371474325505/tenor_7.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859513072615424010/image0.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859512883990102056/image0.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859512805753487370/image0.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859475938159624192/itachi.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859473817709576242/6e782a5ae0b44f52bf867f361e73c26a.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859387230149148672/pp8.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859386157883064360/a_a79974a9a389ea9245ce7e5153223993.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859379700832534528/g0yPLFTYpr283dUJBs.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859371320626118656/de9o2kn-d29293c2-4ea7-4010-9c7b-df6a39c39044.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859313579525275668/3fcf62b03e920a47f7e836ee87834474.gif",
+      "https://media.discordapp.net/attachments/755169627872428134/859313527361634314/original.gif"
+    ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `${message.author.username} CARTOON GIFS `,
+          image: {
+            url: girl[Math.floor(Math.random() * girl.length)]
+          }
+        }
+      })
+      .catch(e => {
+        client.log.error(e);
+      });
+  }
+});
+
 client.on(`ready`, () => {	
 //////////////
 
