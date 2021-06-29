@@ -248,6 +248,38 @@ client.on("message", message => {
   }
 });
 
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "smoke")) {
+    let girl = [
+      "https://media.discordapp.net/attachments/755893014915711047/859534445873463316/Man_PP_Gif_57.gif",
+      "https://media.discordapp.net/attachments/755893014915711047/859534425049399306/saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.gif",
+      "https://media.discordapp.net/attachments/755893014915711047/859411338567352330/a_7a979c79c2ea562424102c7a568cc414.gif",
+      "https://media.discordapp.net/attachments/755893530429489192/858798045138780180/masallah17.gif",
+      "https://media.discordapp.net/attachments/755893530429489192/858816881792253962/e3ddb0e03943ad023942d43950934c94d.gif",
+      "https://media.discordapp.net/attachments/755893530429489192/859020499791249418/womann_2.gif",
+      "https://media.discordapp.net/attachments/755893530429489192/859076917864038410/sigaraaaaa.gif",
+      "https://media.discordapp.net/attachments/755893530429489192/858095158373384253/image0-1-1.gif",
+      "https://media.discordapp.net/attachments/755893014915711047/858738615571578910/bune_la.gif",
+      "https://media.discordapp.net/attachments/755893014915711047/858807677149118464/image0_3.gif",
+      "https://media.discordapp.net/attachments/755893014915711047/858357189184847921/a_22621337db51c27898c8e1cfeb2ba5d7.gif",
+      "https://media.discordapp.net/attachments/755893530429489192/857748717469171772/a_16845931fc3f341c95f2c46b0870182a-1.gif"
+    ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `${message.author.username} SMOKE GIFS `,
+          image: {
+            url: girl[Math.floor(Math.random() * girl.length)]
+          }
+        }
+      })
+      .catch(e => {
+        client.log.error(e);
+      });
+  }
+});
+
 client.on(`ready`, () => {	
 //////////////
 
