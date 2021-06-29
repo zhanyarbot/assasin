@@ -216,6 +216,38 @@ client.on("message", message => {
   }
 });
 
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "cat")) {
+    let girl = [
+      "https://media.discordapp.net/attachments/608711488806584330/859501211283095562/21.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859450818591981578/Zeyrox_34.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859419911746486312/image0.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279253065564180/a_5e45be6109ee8d19b1faf07d3578cae7.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279222992273418/Animal-5.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279207862763530/a_1f88d9d0fc7c274035b4a11d71b3072f.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279197976133642/21313.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279171376119848/21.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279151918612530/Lavinia_13.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279140753637376/kedicipsi.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279067835793408/a_52d9412f3d92c45604415c34847a82d3.gif",
+      "https://media.discordapp.net/attachments/608711488806584330/859279030825779220/aureliongif4.gif"
+    ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `${message.author.username} CAT GIFS `,
+          image: {
+            url: girl[Math.floor(Math.random() * girl.length)]
+          }
+        }
+      })
+      .catch(e => {
+        client.log.error(e);
+      });
+  }
+});
+
 client.on(`ready`, () => {	
 //////////////
 
