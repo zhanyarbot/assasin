@@ -152,6 +152,38 @@ client.on("message", message => {
   }
 });
 
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "anime")) {
+    let girl = [
+      "https://media.discordapp.net/attachments/608711485849337856/859555398808633384/3a22e788f70db28cf820d2a060742547.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859555398532464651/31512a46817edd477818277ac60af3ef.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859555398159564820/19629d1b8101f581d5c53369104657c5.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859555397768970270/4471648a09239bf326e26ebf38a47eda.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859551886159904798/giphy.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859542765116981278/SPOILER_1548244985_tumblr_oehosoYb6i1qg9t1lo2_400.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859542756254679090/SPOILER_2f46a27d-f14c-4733-8178-24d03ef093e9.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859542719339429938/44d0f1339059de50f411ba1c2f0b4d3a.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859542602462527488/20210611_182625.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859535363534225418/image0.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859534450152701992/20210526_192740.gif",
+      "https://media.discordapp.net/attachments/608711485849337856/859534195012272179/4fc7dc8db47f29569f6298785bb32449a3c9615e_00.gif"
+    ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `${message.author.username} ANIME GIFS `,
+          image: {
+            url: girl[Math.floor(Math.random() * girl.length)]
+          }
+        }
+      })
+      .catch(e => {
+        client.log.error(e);
+      });
+  }
+});
+
 client.on(`ready`, () => {	
 //////////////
 
