@@ -15,7 +15,7 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    //.setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
+    //.setThumbnail(` `)
     .setTitle(`**Nito Info**`)
     .setDescription(`
 
