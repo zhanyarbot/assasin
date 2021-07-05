@@ -354,8 +354,8 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("PURPLE")
-    .setAuthor("About Qeqe Bot.", "https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024")
-    .setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
+    .setAuthor("About Nito Bot.", "")
+    .setThumbnail(` `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
