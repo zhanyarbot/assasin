@@ -29,6 +29,12 @@ module.exports = {
 \`anime\` - \`cat\` - \`cartoon\` - \`smoke\`
 
 
+**Music Commands**
+\`play\` - \`skip\` - \`skipto\` - \`stop\`
+\`volume\` - \`nowplaying\` - \`shuffly\` - \`search\`
+\`resume\` - \`remove\` - \`queue\` - \`loop\` 
+\`lyrics\` - \`radio\`
+
 
 [Support](https://discord.gg/6MGtNxJNBk)
 [Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)
