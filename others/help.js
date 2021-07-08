@@ -24,6 +24,9 @@ module.exports = {
 \`prefix\` - \`uptime\`
 
 
+**Gif Commands**
+\`boy\` - \`girl\` - \`baby\` - \`couple\`
+\`anime\` - \`cat\` - \`cartoon\` - \`smoke\`
 
 
 
