@@ -20,8 +20,7 @@ module.exports = {
     .setDescription(`
     
 **Info Commands**
->>>
-\`invite\` - \`support\` - \`about\` - \`ping\`
+>>> \`invite\` - \`support\` - \`about\` - \`ping\`
 \`prefix\` - \`uptime\`
 
 
