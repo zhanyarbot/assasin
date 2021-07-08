@@ -18,7 +18,7 @@ module.exports = {
     let seconds = Math.floor(client.uptime / 1000) % 60;
     //react with approve emoji
     message.react("<:emoji_4:822203026776391711>");
-    return message.channel.send(new MessageEmbed().setColor("PURPLE").setTitle(`<:emoji_4:822203026776391711> \`RAYAL Uptime\`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
+    return message.channel.send(new MessageEmbed().setColor("PURPLE").setTitle(`<:emoji_4:822203026776391711> \`Nito Uptime\`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
 
 
   }
