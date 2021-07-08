@@ -18,8 +18,13 @@ module.exports = {
     .setThumbnail(` `)
     .setTitle(`**Nito Help**`)
     .setDescription(`
+    
+**Info Commands**
+>>>
+\`invite\` - \`support\` - \`about\` - \`ping\`
+\`prefix\` - \`uptime\`
 
-\`info\` - \`music\` -\`gif\`
+
 
 
 
