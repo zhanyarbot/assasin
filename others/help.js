@@ -16,24 +16,21 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(` `)
-    .setTitle(`**Nito Help**`)
+    .setTitle(`**Nito**`)
     .setDescription(`
     
-**Info Commands**
->>> \`invite\` - \`support\` - \`about\` - \`ping\`
-\`prefix\` - \`uptime\`
+__Moderator__
+︙,lock - ,unlock - ,clear - ,kick
+︙,ban - ,unban - ,say 
 
 
-**Gif Commands**
-\`boy\` - \`girl\` - \`baby\` - \`couple\`
-\`anime\` - \`cat\` - \`cartoon\` - \`smoke\`
+__Funny__
+︙,slap - ,kiss - ,hug
 
 
-**Music Commands**
-\`play\` - \`skip\` - \`skipto\` - \`stop\`
-\`volume\` - \`nowplaying\` - \`shuffly\` - \`search\`
-\`resume\` - \`remove\` - \`queue\` - \`loop\` 
-\`lyrics\` - \`radio\`
+__Gif__
+︙,boy - ,girl - ,baby - ,couple
+︙,anime - ,cat - ,cartoon - ,smoke
 
 
 [Support](https://discord.gg/6MGtNxJNBk)
