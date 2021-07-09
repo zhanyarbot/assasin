@@ -33,6 +33,11 @@ __Gif__
 ︙,anime - ,cat - ,cartoon - ,smoke
 
 
+__Everyone__
+︙,invite - ,support - ,about - ,ping
+︙,prefix - ,uptime 
+
+
 [Support](https://discord.gg/6MGtNxJNBk)
 [Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)
 `)
