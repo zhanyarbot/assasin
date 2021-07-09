@@ -280,6 +280,57 @@ client.on("message", message => {
   }
 });
 
+client.on('message', message => {
+ 
+ 
+      if(message.content === PREFIX + "Lock") {
+if(!message.member.hasPermission('MANAGE_CHANNELS')) return
+        message.delete()
+ 
+        if(!message.channel.guild) return 
+ 
+ let bwan = new Discord.MessageEmbed()
+ 
+ 
+              .setFooter('Powered by bawan')       
+                .setColor('RANDOM') 
+                .setTitle('CHANNEL CLOSED')
+        message.channel.send(bwan)
+ 
+ 
+ 
+ 
+ 
+             message.channel.updateOverwrite(message.guild.id, {
+ 
+            SEND_MESSAGES: false
+             })}
+ 
+              })
+ 
+ 
+client.on('message', message => {
+      if(message.content === PREFIX + "unlock") { 
+        if(!message.member.hasPermission('MANAGE_CHANNELS')) return 
+        message.delete()
+ 
+        if(!message.channel.guild) return message.reply('SORRY IM IN SERVER');
+ let bwan = new Discord.MessageEmbed()
+                     .setFooter('Powered By bawan')
+                .setColor('RANDOM') 
+                .setTitle('CHANNEL NOW OPEN')
+        message.channel.send(bwan)
+ 
+             message.channel.updateOverwrite(message.guild.id, {
+ 
+            SEND_MESSAGES: true
+             })}
+ 
+              })
+ 
+ 
+ 
+
 client.on(`ready`, () => {	
 //////////////
 
