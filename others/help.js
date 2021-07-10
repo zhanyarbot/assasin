@@ -24,17 +24,17 @@ module.exports = {
 ︙,ban - ,unban - ,say 
 
 
-__Funny__
+**__Funny__**
 ︙,slap - ,kiss - ,hug
 
 
-__Gif__
+**__Gif__**
 ︙,boy - ,girl - ,baby - ,couple
 ︙,anime - ,cat - ,cartoon - ,smoke
 ︙,sad - ,neon
 
 
-__Everyone__
+**__Everyone__**
 ︙,invite - ,support - ,about - ,ping
 ︙,prefix - ,uptime 
 
