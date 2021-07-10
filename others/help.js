@@ -31,7 +31,7 @@ __Funny__
 __Gif__
 ︙,boy - ,girl - ,baby - ,couple
 ︙,anime - ,cat - ,cartoon - ,smoke
-︙,sad 
+︙,sad - ,neon
 
 
 __Everyone__
