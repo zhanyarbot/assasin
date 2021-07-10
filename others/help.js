@@ -20,7 +20,7 @@ module.exports = {
     .setDescription(`
     
 __Moderator__
-︙,lock - ,unlock - ,clear - ,kick
+︙,lock  .  ,unlock - ,clear - ,kick
 ︙,ban - ,unban - ,say 
 
 
