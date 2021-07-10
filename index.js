@@ -51,6 +51,41 @@ client.on("message", message => {
   }
 });
 
+client.on('message',async message => {
+  if(message.content.startsWith(PREFIX + "sug")) {
+  let args = message.content.split(" ").slice(1)
+ 
+    if(!args.length) {
+      return message.channel.send("Please Give the Suggestion")
+    }
+ 
+    let channel = message.guild.channels.cache.find((x) => (x.name === "suggestion" || x.name === "suggestions"))
+ 
+    if(!channel) {
+      return message.channel.send("there is no channel with name - suggestions")
+    }
+ 
+ 
+    let embed = new Discord.MessageEmbed()
+    .setAuthor("SUGGESTION: " + message.author.tag, message.author.avatarURL())
+    .setThumbnail(message.author.avatarURL())
+    .setColor("#ff2050")
+    .setDescription(args.join(" "))
+    .setTimestamp()
+ 
+ 
+    channel.send(embed).then(m => {
+      m.react("✅")
+      m.react("❌")
+    })
+ 
+ 
+ 
+    message.channel.send("Sended Your Suggestion to  Suggestions Channel")
+ 
+  }
+})
+
 client.on('message', async message=>{
   if(message.content.startsWith(PREFIX +'unban')){
 if(!message.member.hasPermission('BAN_MEMBERS')) return message.channel.send('bbura to natwane am frmana anjam bdait')
