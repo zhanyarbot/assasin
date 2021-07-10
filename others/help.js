@@ -20,23 +20,23 @@ module.exports = {
     .setDescription(`
     
 __Moderator__
-︙,lock - ,unlock - ,clear - ,kick
-︙,ban - ,unban - ,say 
+︙,lock . ,unlock . ,clear . ,kick
+︙,ban . ,unban . ,say 
 
 
 __Funny__
-︙,slap - ,kiss - ,hug
+︙,slap . ,kiss . ,hug
 
 
 __Gif__
-︙,boy - ,girl - ,baby - ,couple
-︙,anime - ,cat - ,cartoon - ,smoke
-︙,sad - ,neon
+︙,boy . ,girl . ,baby . ,couple
+︙,anime . ,cat . ,cartoon . ,smoke
+︙,sad . ,neon
 
 
 __Everyone__
-︙,invite - ,support - ,about - ,ping
-︙,prefix - ,uptime 
+︙,invite . ,support . ,about . ,ping
+︙,prefix . ,uptime 
 
 
 [Support](https://discord.gg/6MGtNxJNBk)
