@@ -19,8 +19,8 @@ module.exports = {
     .setTitle(`**Nito**`)
     .setDescription(`
     
-__Moderator__
-︙,lock  .  ,unlock - ,clear - ,kick
+**__Moderator__**
+︙,lock - ,unlock - ,clear - ,kick
 ︙,ban - ,unban - ,say 
 
 
