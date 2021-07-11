@@ -25,13 +25,13 @@ module.exports = {
 
 
 **__Funny__**
-︙,slap - ,kiss - ,hug
+<a:emoji_83:840302145605730304>︙,slap - ,kiss - ,hug
 
 
 **__Gif__**
-︙,boy - ,girl - ,baby - ,couple
-︙,anime - ,cat - ,cartoon - ,smoke
-︙,sad - ,neon
+<a:emoji_27:839946546443321345>︙,boy - ,girl - ,baby - ,couple
+<a:emoji_27:839946546443321345>︙,anime - ,cat - ,cartoon - ,smoke
+<a:emoji_27:839946546443321345>︙,sad - ,neon
 
 
 **__Everyone__**
