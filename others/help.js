@@ -35,8 +35,8 @@ module.exports = {
 
 
 **__Everyone__**
-︙,invite - ,support - ,about - ,ping
-︙,prefix - ,uptime 
+<a:emoji_work:840358507185176587>︙,invite - ,support - ,about - ,ping
+<a:emoji_work:840358507185176587>︙,prefix - ,uptime 
 
 
 [Support](https://discord.gg/6MGtNxJNBk)
