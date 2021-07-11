@@ -171,6 +171,30 @@ client.on("message", message => {
   }
 });
 
+client.on('message',  (message) => {
+        if(message.content.startsWith(PREFIX + "slap")) {
+  let user = message.mentions.users.first();
+  if (!user) return message.reply('mention someone to Slap')
+  let slaps = [
+   "https://media.discordapp.net/attachments/738277612039962688/775009108402372608/image0.gif",
+    "https://media.discordapp.net/attachments/738277612039962688/775009109166522428/image1.gif"
+    ,"https://media.discordapp.net/attachments/738277612039962688/775009109383577621/image2.gif",
+    "https://media.discordapp.net/attachments/738277612039962688/775009109585821746/image3.gif",
+    "https://media.discordapp.net/attachments/738277612039962688/775009109749006406/image4.gif",
+  "https://media.discordapp.net/attachments/738277612039962688/775009110177349692/image6.gif",
+    "https://media.discordapp.net/attachments/738277612039962688/775009110373433364/image7.gif",
+  "https://media.discordapp.net/attachments/738277612039962688/775009110525345797/image8.gif",
+  "https://media.discordapp.net/attachments/738277612039962688/775009110663233576/image9.gif"
+  ];
+  const embed = new Discord.MessageEmbed()
+.setDescription(`${message.author.username} Slap ${user.username}!`)
+ 
+.setImage(slaps[Math.floor(Math.random() * slaps.length)])
+ 
+message.channel.send(embed)
+        }})
+
+
 client.on("message", message => {
   if (message.content.startsWith(PREFIX + "neon")) {
     let girl = [
