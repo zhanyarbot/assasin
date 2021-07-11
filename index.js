@@ -172,6 +172,31 @@ client.on("message", message => {
 });
 
 client.on('message',  (message) => {
+        if(message.content.startsWith(PREFIX + "kiss")) {
+  let user = message.mentions.users.first();
+  if (!user) return message.reply('mention someone to Kiss')
+  var kiss = [
+"https://media.discordapp.net/attachments/738277612039962688/775017819980431360/image0.gif",
+"https://media.discordapp.net/attachments/738277612039962688/775017820161179648/image1.gif",
+"https://media.discordapp.net/attachments/738277612039962688/775017820445868032/image2.gif",
+"https://media.discordapp.net/attachments/738277612039962688/775017820643262465/image3.gif",
+"https://media.discordapp.net/attachments/738277612039962688/775017820853239808/image4.gif",
+"https://media.discordapp.net/attachments/738277612039962688/775017821129932860/image5.gif",       
+"https://media.discordapp.net/attachments/738277612039962688/775017821611753472/image7.gif",
+"https://media.discordapp.net/attachments/725046590242291763/775020613109678090/image0.gif",  
+ 
+  ];
+ 
+  const embed = new Discord.MessageEmbed()
+.setDescription(`${message.author.username} kiss ${user.username}!`)
+ 
+.setImage(kiss[Math.floor(Math.random() * kiss.length)])
+ 
+message.channel.send(embed)
+        }})
+
+
+client.on('message',  (message) => {
         if(message.content.startsWith(PREFIX + "slap")) {
   let user = message.mentions.users.first();
   if (!user) return message.reply('mention someone to Slap')
