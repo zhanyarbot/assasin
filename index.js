@@ -171,6 +171,25 @@ client.on("message", message => {
   }
 });
 
+client.on('message', message => {
+    if (message.content.startsWith(PREFIX  + 'say')) {
+   var say = message.content.split(" ").slice(1).join(" ");
+    if(!say) return message.reply("Please Type Message For say")
+        message.channel.send(say);
+}
+    if (message.content.startsWith(prefix  + "embed")) {
+   var args = message.content.split(" ").slice(1).join(" ");
+   if(!args) return message.reply("Please Type Message For say Embed")
+   const embed = new Discord.MessageEmbed()
+        .setColor('RANDOM')
+        .setThumbnail(message.author.avatarURL())
+        .setAuthor(message.author.username,message.author.avatarURL())
+        .setDescription(args)
+        message.channel.send(embed);
+}
+});
+
+
 client.on('message',  (message) => {
         if(message.content.startsWith(PREFIX + "kiss")) {
   let user = message.mentions.users.first();
