@@ -189,7 +189,6 @@ client.on('message', message => {
 }
 });
 
-
 client.on('message',  (message) => {
         if(message.content.startsWith(PREFIX + "kiss")) {
   let user = message.mentions.users.first();
