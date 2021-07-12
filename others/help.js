@@ -29,9 +29,9 @@ module.exports = {
 
 
 **__Gif__**
-<a:emoji_27:839946546443321345>︙,boy - ,girl - ,baby - ,couple
-<a:emoji_27:839946546443321345>︙,anime - ,cat - ,cartoon - ,smoke
-<a:emoji_27:839946546443321345>︙,sad - ,neon
+<a:emoji_27:839946546443321345>︙,boy  -  ,girl  -  ,baby  -  ,couple
+<a:emoji_27:839946546443321345>︙,anime  -  ,cat  -  ,cartoon  -  ,smoke
+<a:emoji_27:839946546443321345>︙,sad  -  ,neon
 
 
 **__Everyone__**
