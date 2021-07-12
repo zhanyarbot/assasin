@@ -176,7 +176,7 @@ client.on("message", msg => {
   var bawan = "kurdfam"
    var muteRole = msg.guild.roles.cache.find(role => role.name.toLowerCase().includes("muted"));
     var muteUser = msg.mentions.members.first();
-    var muteReason = msg.content.slice(PREFIX.length + 27);
+    var muteReason = msg.content.slice(prefix.length + 27);
     if (!msg.member.hasPermission("MANAGE_MESSAGES")) return msg.channel.send("pewist ba role a bo anjamdane amkara");
     if (!muteUser) return msg.channel.send("kasek mention bka");
  if (!muteRole) return msg.channel.send("rolek ba nawe muted bwny niya tkaya drwsty bka");
