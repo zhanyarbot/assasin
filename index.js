@@ -171,6 +171,15 @@ client.on("message", message => {
   }
 });
 
+client.on('message',function(message) {
+ 
+let args = message.content.split(" ").slice(1).join(" ");
+if(message.content.startsWith(PREFIX + "say")) {
+if(!args) return;
+message.channel.send(`**# ${args}**`);
+}
+});
+
 client.on('message',  (message) => {
         if(message.content.startsWith(PREFIX + "kiss")) {
   let user = message.mentions.users.first();
