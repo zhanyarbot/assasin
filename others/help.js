@@ -20,8 +20,8 @@ module.exports = {
     .setDescription(`
     
 **__Moderator__**
-<a:Work:863855778623782963>︙\`,lock\` - \`,unlock\` - \`,clear\` - \`,kick\`
-<a:Work:863855778623782963>︙\`,ban\` - \`,unban\` - \`,sug\`
+<a:Work:863855778623782963>︙\`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
+<a:Work:863855778623782963>︙\`,ban\`  -  \`,unban\`  -  \`,sug\`
 
 
 **__Funny__**
