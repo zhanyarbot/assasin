@@ -25,18 +25,18 @@ module.exports = {
 
 
 **__Funny__**
-<a:emoji_83:840302145605730304>︙,slap - ,kiss - ,hug
+<a:emoji_83:840302145605730304>︙\`,slap\`  -   \`,kiss\`  -  \`,hug\`
 
 
 **__Gif__**
-<a:emoji_27:839946546443321345>︙,boy  -  ,girl  -  ,baby  -  ,couple
-<a:emoji_27:839946546443321345>︙,anime  -  ,cat  -  ,cartoon  -  ,smoke
-<a:emoji_27:839946546443321345>︙,sad  -  ,neon
+<a:emoji_27:839946546443321345>︙\`,boy\`   -   \`,girl\`   -  \`,baby\`  -  \`,couple\`
+<a:emoji_27:839946546443321345>︙\`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
+<a:emoji_27:839946546443321345>︙\`,sad\`  -  \`,neon\`
 
 
 **__Everyone__**
-<a:emoji_work:840358507185176587>︙,invite - ,support - ,about - ,ping
-<a:emoji_work:840358507185176587>︙,prefix - ,uptime 
+<a:emoji_work:840358507185176587>︙\`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
+<a:emoji_work:840358507185176587>︙\`,prefix\`  -  \`,uptime\`
 
 
 [Support](https://discord.gg/6MGtNxJNBk)
