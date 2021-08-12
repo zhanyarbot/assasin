@@ -67,15 +67,15 @@ const search = args.join(" ");
       } else {
         queueConstruct.connection = await channel.join();
         message.channel.send(new MessageEmbed().setColor("PURPLE")
-          .setDescription(`** <:emoji_5:822203051082252368> Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
+          .setDescription(`** Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         if (urlValid) { 
           message.channel.send(new MessageEmbed().setColor("PURPLE")
-            .setDescription(`**<:emoji_7:822203487555026986> Searching <:emoji_6:822203074386067526> [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**Searching [\`LINK\`](${args.join(" ")})**`))
         }
         else {
           message.channel.send(new MessageEmbed().setColor("PURPLE")
-            .setDescription(`**<:emoji_7:822203487555026986> Searching <:emoji_6:822203074386067526> \`${args.join(" ")}\`**`))
+            .setDescription(`** Searching \`${args.join(" ")}\`**`))
         }
         queueConstruct.connection.voice.setSelfDeaf(true);
         queueConstruct.connection.voice.setDeaf(true);
