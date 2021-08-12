@@ -16,25 +16,25 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(` `)
-    .setTitle(`**Nito**`)
+    .setTitle(`**Nito ✨**`)
     .setDescription(`
     
-**__Moderator__**
+⚙️┇**__Moderator__**
 \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
 \`,ban\`  -  \`,unban\`  -  \`,sug\`
 
 
-**__Funny__**
+😂┇**__Funny__**
 \`,slap\`  -   \`,kiss\`  -  \`,hug\`
 
 
-**__Gif__**
+🔥┇**__Gif__**
 \`,boy\`   -   \`,girl\`   -  \`,baby\`  -  \`,couple\`
 \`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
 \`,sad\`  -  \`,neon\`
 
 
-**__Music Commands__**
+🎶┇**__Music Commands__**
 \`play\`  -  \`skip\`  -  \`skipto\`
 \`stop\`  -  \`volume\`  -  \`nowplaying\`
 \`shuffle\`  -  \`search\`  -  \`resume\`
@@ -42,7 +42,7 @@ module.exports = {
 \`lyrics\`  -  \`radio\`
 
 
-**__Everyone__**
+🌍┇**__Everyone__**
 \`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
 \`,prefix\`  -  \`,uptime\`
 
