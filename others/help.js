@@ -35,11 +35,11 @@ module.exports = {
 
 
 🎶┇**__Music Commands__**
-\`play\`  -  \`skip\`  -  \`skipto\`
-\`stop\`  -  \`volume\`  -  \`nowplaying\`
-\`shuffle\`  -  \`search\`  -  \`resume\`
-\`remove\`  -  \`queue\`  -  \`loop\`
-\`lyrics\`  -  \`radio\`
+\`,play\`  -  \`,skip\`  -  \`,skipto\`
+\`,stop\`  -  \`,volume\`  -  \`,nowplaying\`
+\`,shuffle\`  -  \`,search\`  -  \`,resume\`
+\`,remove\`  -  \`,queue\`  -  \`,loop\`
+\`,lyrics\`  -  \`,radio\`
 
 
 🌍┇**__Everyone__**
