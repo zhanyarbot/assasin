@@ -34,6 +34,11 @@ module.exports = {
 <a:emoji_27:839946546443321345>︙\`,sad\`  -  \`,neon\`
 
 
+**__Music__**
+<a:music:859420268610584606>︙\`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`
+<a:music:859420268610584606>︙\`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`  -  \`,search\`
+<a:music:859420268610584606>︙\`,resume\`  -  \`,queue\` - \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
+
 **__Everyone__**
 <a:emoji_work:840358507185176587>︙\`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
 <a:emoji_work:840358507185176587>︙\`,prefix\`  -  \`,uptime\`
