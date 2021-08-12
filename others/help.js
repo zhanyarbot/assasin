@@ -34,7 +34,7 @@ module.exports = {
 \`,sad\`  -  \`,neon\`
 
 
-🎶┇**__Music Commands__**
+🎶┇**__Music__**
 \`,play\`  -  \`,skip\`  -  \`,skipto\`
 \`,stop\`  -  \`,volume\`  -  \`,nowplaying\`
 \`,shuffle\`  -  \`,search\`  -  \`,resume\`
