@@ -671,9 +671,9 @@ client.on(`message`, async (message) => {
     .setTimestamp()
     .setDescription(`
 
-[Support](https://discord.gg/6MGtNxJNBk)
+[Support](https://discord.gg/DCYsfe4AR6)
 
-[Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
 
 **{Owner Bot}** :
 Miro#4801
@@ -704,9 +704,9 @@ Online
     .setDescription (`
  
 
-[Support](https://discord.gg/6MGtNxJNBk)
+[Support](https://discord.gg/DCYsfe4AR6)
 -
-[Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)`)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
     .setTitle(`**Support  QEQE**`) 
