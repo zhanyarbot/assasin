@@ -676,7 +676,7 @@ client.on(`message`, async (message) => {
 [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
 
 **{Owner Bot}** :
-Miro#4801
+“Omedᵖʰ’ᵈᵉᵛᵉˡᵒᵖᵉʳ#9909
 
 **{Set Status}** :
 Online
@@ -709,7 +709,7 @@ Online
 [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**Support  QEQE**`) 
+    .setTitle(`**Support  Nito**`) 
     .setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
     .setTimestamp()
     
