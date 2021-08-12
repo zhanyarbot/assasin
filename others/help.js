@@ -39,8 +39,8 @@ module.exports = {
 <a:emoji_work:840358507185176587>︙\`,prefix\`  -  \`,uptime\`
 
 
-[Support](https://discord.gg/6MGtNxJNBk)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=837016151795564544&permissions=8&scope=bot)
+[Support](https://discord.gg/DCYsfe4AR6)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("PURPLE");
