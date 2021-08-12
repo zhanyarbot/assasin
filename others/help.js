@@ -20,29 +20,31 @@ module.exports = {
     .setDescription(`
     
 **__Moderator__**
-<a:Work:863855778623782963>︙\`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
-<a:Work:863855778623782963>︙\`,ban\`  -  \`,unban\`  -  \`,sug\`
+\`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
+\`,ban\`  -  \`,unban\`  -  \`,sug\`
 
 
 **__Funny__**
-<a:emoji_83:840302145605730304>︙\`,slap\`  -   \`,kiss\`  -  \`,hug\`
+\`,slap\`  -   \`,kiss\`  -  \`,hug\`
 
 
 **__Gif__**
-<a:emoji_27:839946546443321345>︙\`,boy\`   -   \`,girl\`   -  \`,baby\`  -  \`,couple\`
-<a:emoji_27:839946546443321345>︙\`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
-<a:emoji_27:839946546443321345>︙\`,sad\`  -  \`,neon\`
+\`,boy\`   -   \`,girl\`   -  \`,baby\`  -  \`,couple\`
+\`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
+\`,sad\`  -  \`,neon\`
 
 
-**__Music__**
-<a:music:859420268610584606>︙\`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`
-<a:music:859420268610584606>︙\`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`  -  \`,search\`
-<a:music:859420268610584606>︙\`,resume\`  -  \`,queue\` - \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
+**__Music Commands__**
+\`play\`  -  \`skip\`  -  \`skipto\`
+\`stop\`  -  \`volume\`  -  \`nowplaying\`
+\`shuffle\`  -  \`search\`  -  \`resume\`
+\`remove\`  -  \`queue\`  -  \`loop\`
+\`lyrics\`  -  \`radio\`
 
 
 **__Everyone__**
-<a:emoji_work:840358507185176587>︙\`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
-<a:emoji_work:840358507185176587>︙\`,prefix\`  -  \`,uptime\`
+\`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
+\`,prefix\`  -  \`,uptime\`
 
 
 [Support](https://discord.gg/DCYsfe4AR6)
