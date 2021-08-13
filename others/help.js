@@ -20,8 +20,8 @@ module.exports = {
     .setDescription(`
     
 **__Moderator__**
-<a:emoji_30:861768375792566272>\`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
-<a:emoji_30:861768375792566272>\`,ban\`  -  \`,unban\`  -  \`,sug\`
+<a:emoji_30:861768375792566272> ┊\`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
+<a:emoji_30:861768375792566272> ┊\`,ban\`  -  \`,unban\`  -  \`,sug\`
 
 
 **__Funny__**
