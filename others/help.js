@@ -19,31 +19,31 @@ module.exports = {
     .setTitle(`**Nito ✨**`)
     .setDescription(`
     
-**__Moderator__**
-⚙️ \`,lock\` - \`,unlock\` - \`,clear\` - \`,kick\`
-⚙️ \`,ban\` - \`,unban\` - \`,sug\`
+**⚙️┇Moderator**
+\`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
+\`,ban\`  -  \`,unban\`  -  \`,sug\`
 
 
-**__Funny__**
-🤣 \`,slap\` - \`,kiss\` - \`,hug\`
+**🤣┇Funny**
+\`,slap\`  -  \`,kiss\`  -  \`,hug\`
 
 
-**__Gif__**
-✨ \`,boy\` - \`,girl\` - \`,baby\` - \`,couple\`
-✨ \`,anime\` - \`,cat\` - \`,cartoon\` - \`,smoke\`
-✨ \`,sad\` - \`,neon\`
+**✨┇Gif**
+\`,boy\`  -  \`,girl\`  -  \`,baby\`  -  \`,couple\`
+\`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
+\`,sad\`  -  \`,neon\`
 
 
-**__Music__**
-🎶 \`,play\` - \`,skip\` - \`,skipto\` - \`,stop\`  
-🎶 \`,volume\` - \`,nowplaying\` - \`,shuffle\`
-🎶 \`,search\` - \`,resume\` - \`,remove\`
-🎶 \`,queue\` - \`,loop\` - \`,lyrics\` - \`,radio\`
+**🎶┇Music**
+\`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`  
+\`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`
+\`,search\`  -  \`,resume\`  -  \`,remove\`
+\`,queue\`  -  \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
 
 
-**__Everyone__**
-🌐 \`,invite\` - \`,support\` - \`,about\` - \`,ping\`
-🌐 \`,prefix\`  -  \`,uptime\`
+**🌐┇Everyone**
+\`,invite\`  -  \`,support\`  -  \`,about\` - \`,ping\`
+\`,prefix\`  -  \`,uptime\`
 
 
 [Support](https://discord.gg/DCYsfe4AR6)
