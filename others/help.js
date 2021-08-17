@@ -20,30 +20,30 @@ module.exports = {
     .setDescription(`
     
 **__Moderator__**
-<a:emoji_30:861768375792566272> \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
-<a:emoji_30:861768375792566272> \`,ban\`  -  \`,unban\`  -  \`,sug\`
+⚙️ \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
+⚙️ \`,ban\`  -  \`,unban\`  -  \`,sug\`
 
 
 **__Funny__**
-<a:emoji_83:875554071631757385> \`,slap\`  -   \`,kiss\`  -  \`,hug\`
+🤣 \`,slap\`  -   \`,kiss\`  -  \`,hug\`
 
 
 **__Gif__**
-<a:emoji_26:861768220776333362> \`,boy\`   -   \`,girl\`   -  \`,baby\`  -  \`,couple\`
-<a:emoji_26:861768220776333362> \`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
-<a:emoji_26:861768220776333362> \`,sad\`  -  \`,neon\`
+✨ \`,boy\`   -   \`,girl\`   -  \`,baby\`  -  \`,couple\`
+✨ \`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
+✨ \`,sad\`  -  \`,neon\`
 
 
 **__Music__**
-<a:emoji_82:875552188749983815> \`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`  
-<a:emoji_82:875552188749983815> \`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`
-<a:emoji_82:875552188749983815> \`,search\`  -  \`,resume\`  -  \`,remove\`
-<a:emoji_82:875552188749983815> \`,queue\`  -  \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
+🎶 \`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`  
+🎶 \`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`
+🎶 \`,search\`  -  \`,resume\`  -  \`,remove\`
+🎶 \`,queue\`  -  \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
 
 
 **__Everyone__**
-<a:emoji_74:865927465377202196> \`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
-<a:emoji_74:865927465377202196> \`,prefix\`  -  \`,uptime\`
+ \`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
+ \`,prefix\`  -  \`,uptime\`
 
 
 [Support](https://discord.gg/DCYsfe4AR6)
