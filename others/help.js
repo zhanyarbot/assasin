@@ -42,8 +42,8 @@ module.exports = {
 
 
 **__Everyone__**
- \`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
- \`,prefix\`  -  \`,uptime\`
+🌐 \`,invite\`  -  \`,support\`  -  \`,about\`  -  \`,ping\`
+🌐 \`,prefix\`  -  \`,uptime\`
 
 
 [Support](https://discord.gg/DCYsfe4AR6)
