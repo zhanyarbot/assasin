@@ -22,7 +22,7 @@ module.exports = {
 
   
    .setColor("PURPLE");
-   message.react("<:emoji_4:822203026776391711>")
+   message.react("♻️")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
