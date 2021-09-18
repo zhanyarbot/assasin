@@ -33,7 +33,7 @@ execute(message) {
       //resume the Bot
       queue.connection.dispatcher.resume();
       //Create approve embed
-      const playembed = new MessageEmbed().setColor("PURPLE")
+      const playembed = new MessageEmbed().setColor("GREEN")
       .setAuthor(`${message.author.username} resumed the music!`, "")
       //send the approve
       return queue.textChannel.send(playembed).catch(console.error);
