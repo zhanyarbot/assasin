@@ -13,8 +13,8 @@ module.exports = {
   edesc: "Type this command to see how fast the Bot can response to your messages / commands inputs!",
   execute(message, args, client) {
     //react with approve emoji
-    message.react("<:emoji_4:822203026776391711>");
+    message.react("📶");
     //send the Ping embed
-    message.reply(new MessageEmbed().setColor("PURPLE").setTitle("📶 `" + client.ws.ping + "ms`"));
+    message.reply(new MessageEmbed().setColor("GREEN").setTitle("📶 `" + client.ws.ping + "ms`"));
   }
 }
