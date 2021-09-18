@@ -40,6 +40,6 @@ execute(message,args,client) {
     //send the Approve message
     queue.textChannel.send(new MessageEmbed()
     .setDescription(`**${message.author} shuffled the Queue**`)
-    .setColor("PURPLE")).catch(console.error);
+    .setColor("GREEN")).catch(console.error);
   }
 };
