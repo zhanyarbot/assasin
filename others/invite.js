@@ -21,7 +21,7 @@ module.exports = {
 `)
 
   
-   .setColor("PURPLE");
+   .setColor("GREEN");
    message.react("♻️")
     return message.channel.send(helpEmbed).catch(console.error);
 
