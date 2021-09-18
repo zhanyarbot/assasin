@@ -16,7 +16,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(` `)
-    .setTitle(`**Peace Bot✨**`)
+    .setTitle(`**Peace Bot**`)
     .setDescription(`
     
 **__Moderator__**
