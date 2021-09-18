@@ -19,7 +19,7 @@ async execute(message,args,client) {
   //if not in a guild retunr
   if (!message.guild) return;
   //react with approve emoji
-  message.react("<:emoji_4:822203026776391711>").catch(console.error);
+  message.react("⏹").catch(console.error);
   const { channel } = message.member.voice;
   //get the serverQueue
   const queue = message.client.queue.get(message.guild.id);
@@ -37,7 +37,7 @@ async execute(message,args,client) {
   await channel.leave();
   //send the approve message
   message.channel.send(new MessageEmbed()
-  .setColor("PURPLE")
+  .setColor("GREEN")
   .setAuthor(`${message.author.username} stopped the music!`, ""))
   .catch(console.error);
   }
