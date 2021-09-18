@@ -16,7 +16,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(` `)
-    .setTitle(`**Nito ✨**`)
+    .setTitle(`**Peace Bot✨**`)
     .setDescription(`
     
 **__Moderator__**
@@ -50,8 +50,8 @@ module.exports = {
 [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("PURPLE");
-   message.react("<a:emoji_11:861767779765715014>")
+   .setColor("GREEN");
+   message.react("🟢")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
