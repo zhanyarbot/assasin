@@ -41,7 +41,7 @@ async execute(message,args,client) {
     //define a temporary Loading Embed
     let temEmbed = new MessageEmbed()
     .setAuthor("Searching...", "")
-    .setColor("PURPLE")
+    .setColor("GREEN")
     //define the Result Embed
     let resultsEmbed = new MessageEmbed()
       .setTitle("Results for: ")
