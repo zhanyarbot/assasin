@@ -215,7 +215,7 @@
   queueConstruct.connection = await channel.join().catch(console.error);
   //Send info message for joining 
   if(!serverQueue)
-  message.channel.send(    new MessageEmbed().setColor("PURPLE")
+  message.channel.send(    new MessageEmbed().setColor("GREEN")
   .setDescription(`** <:emoji_5:822203051082252368> Joined \`${channel.name}\` 📄 bouned \`#${message.channel.name}\`**`)
   .setFooter(`${message.author.username}#${message.author.discriminator}`));
   //send Search something embed
