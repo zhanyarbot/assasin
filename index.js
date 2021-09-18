@@ -612,7 +612,7 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(`Type: ${PREFIX}help - Cupe`, { type: "PLAYING"});
+    client.user.setActivity(`Type: ${PREFIX}help - Peace Bot`, { type: "PLAYING"});
     client.user.setActivity(`Type: ${PREFIX}help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
    
   
@@ -664,8 +664,8 @@ client.on(`message`, async (message) => {
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("PURPLE")
-    .setAuthor("About Nito Bot.", "")
+    .setColor("GREEN")
+    .setAuthor("About Peace Bot.", "")
     .setThumbnail(` `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
@@ -700,7 +700,7 @@ Online
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("PURPLE")
+    .setColor("GREEN")
     .setDescription (`
  
 
@@ -731,7 +731,7 @@ Online
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("PURPLE")
+    .setColor("GREEN")
     .setDescription(saymsg)
     //delete the Command
     message.delete({timeout: 300})
@@ -761,8 +761,8 @@ Online
    if (now < expirationTime) {
      const timeLeft = (expirationTime - now) / 1000;
      return message.reply(
-      new MessageEmbed().setColor("PURPLE")
-      .setTitle(`<:emoji_4:822203026776391711>\`Please wait\` \`${timeLeft.toFixed(1)} seconds\` \`before reusing the\` \`${prefix}${command.name}\` `)    
+      new MessageEmbed().setColor("GREEN")
+      .setTitle(`\`Please wait\` \`${timeLeft.toFixed(1)} seconds\` \`before reusing the\` \`${prefix}${command.name}\` `)    
      );
    }
  }
