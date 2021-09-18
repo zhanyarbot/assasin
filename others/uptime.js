@@ -18,7 +18,7 @@ module.exports = {
     let seconds = Math.floor(client.uptime / 1000) % 60;
     //react with approve emoji
     message.react("⚙️");
-    return message.channel.send(new MessageEmbed().setColor("PURPLE").setTitle(`⚙️ \`Nito Uptime\`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
+    return message.channel.send(new MessageEmbed().setColor("GREEN").setTitle(`⚙️ \`Pease Bot Uptime\`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
 
 
   }
