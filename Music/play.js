@@ -139,7 +139,7 @@ serverQueue.songs.push(song);
         .setURL(song.url)
         .setColor("GREEN")
         .setImage(thumb)
-        .setThumbnail(``)
+        .setThumbnail(`https://media.discordapp.net/attachments/859628813230932008/889605492505214976/20210920_231045.png `)
          .addField("Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
         .addField("Length:", `\`${song.duration} Minutes\``, true)
         .addField("Volume:", `\`100\``, true)
