@@ -58,11 +58,11 @@ const search = args.join(" ");
       if (serverQueue) {
         if (urlValid) {
           message.channel.send(new MessageEmbed().setColor("GREEN")
-            .setDescription(`**<:emoji_7:822203487555026986> Searching <:emoji_6:822203074386067526> [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**➡️ Searching ⬅️ [\`LINK\`](${args.join(" ")})**`))
         }
         else {
           message.channel.send(new MessageEmbed().setColor("GREEN")
-            .setDescription(`**<:emoji_7:822203487555026986> Searching <:emoji_6:822203074386067526> \`${args.join(" ")}\`**`))
+            .setDescription(`**➡️ Searching ⬅️ \`${args.join(" ")}\`**`))
         }
       } else {
         queueConstruct.connection = await channel.join();
@@ -135,11 +135,11 @@ catch {
       }
 serverQueue.songs.push(song);
       const newsong = new MessageEmbed()
-        .setTitle("<:emoji_3:822203003859107890> "+song.title)
+        .setTitle("🎵"+song.title)
         .setURL(song.url)
-        .setColor("PURPLE")
+        .setColor("GREEN")
         .setImage(thumb)
-        .setThumbnail(`https://cdn.discordapp.com/attachments/811334922786177035/821692647096713216/PicsArt_03-14-11.44.59.png `)
+        .setThumbnail(``)
          .addField("Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
         .addField("Length:", `\`${song.duration} Minutes\``, true)
         .addField("Volume:", `\`100\``, true)
