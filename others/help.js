@@ -41,9 +41,9 @@ module.exports = {
 🌐 \`,invite\`  -  \`,support\`  -  \`,about\` - \`,ping\`
 🌐 \`,prefix\`  -  \`,uptime\`
 
-
-[Support](https://discord.gg/DCYsfe4AR6)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
+**__Link__**
+🔗 [Support](https://discord.gg/DCYsfe4AR6)
+🔗 [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("GREEN");
