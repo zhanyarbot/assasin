@@ -20,7 +20,7 @@ module.exports = {
     if (!song) {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id);
-      const endembed = new MessageEmbed().setColor("PURPLE")
+      const endembed = new MessageEmbed().setColor("GREEN")
         .setAuthor(`Music Queue ended.`, "")
       return queue.textChannel.send(endembed).catch(console.error);
     }
