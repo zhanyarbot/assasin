@@ -16,6 +16,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(``)
+    .setimage(`https://media.discordapp.net/attachments/889872400777371738/890924726388654090/image0.gif `)
     .setTitle(`**Peace Bot**`)
     .setDescription(`
     
