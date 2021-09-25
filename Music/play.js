@@ -32,7 +32,7 @@ async execute(message, args, client) {
     //If no args return
     if (!args.length)
       return attentionembed(message, `Usage: ${message.client.prefix}play <YouTube URL | Video Name | Soundcloud URL>`);
-    message.react("<:2_:863362568801222656>").catch(console.error);
+    message.react("🎧").catch(console.error);
     const permissions = channel.permissionsFor(message.client.user);
     if (!permissions.has("CONNECT"))
       return attentionembed(message, "I need permissions to join your channel!");
@@ -57,25 +57,25 @@ const search = args.join(" ");
     try {
       if (serverQueue) {
         if (urlValid) {
-          message.channel.send(new MessageEmbed().setColor("YELLOW")
-            .setDescription(`**<a:emoji_40:823437442895314945> Searching <a:emoji_23:822641348490166274> [\`LINK\`](${args.join(" ")})**`))
+          message.channel.send(new MessageEmbed().setColor("GREEN")
+            .setDescription(`**Searching [\`LINK\`](${args.join(" ")})**`))
         }
         else {
-          message.channel.send(new MessageEmbed().setColor("YELLOW")
-            .setDescription(`**<a:emoji_40:823437442895314945> Searching <a:emoji_23:822641348490166274> \`${args.join(" ")}\`**`))
+          message.channel.send(new MessageEmbed().setColor("GREEN")
+            .setDescription(`** Searching \`${args.join(" ")}\`**`))
         }
       } else {
         queueConstruct.connection = await channel.join();
-        message.channel.send(new MessageEmbed().setColor("YELLOW")
-          .setDescription(`** <a:emoji_1:822625385032056832> Joined \`${channel.name}\` 🧾 bound \`#${message.channel.name}\`**`)
+        message.channel.send(new MessageEmbed().setColor("GREEN")
+          .setDescription(`**Joined \`${channel.name}\` 🧾 bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         if (urlValid) { 
-          message.channel.send(new MessageEmbed().setColor("YELLOW")
-            .setDescription(`** <a:emoji_40:823437442895314945> Searching <a:emoji_23:822641348490166274> [\`LINK\`](${args.join(" ")})**`))
+          message.channel.send(new MessageEmbed().setColor("GREEN")
+            .setDescription(`** Searching  [\`LINK\`](${args.join(" ")})**`))
         }
         else {
-          message.channel.send(new MessageEmbed().setColor("YELLOW")
-            .setDescription(`** <a:emoji_40:823437442895314945> Searching <a:emoji_23:822641348490166274> \`${args.join(" ")}\`**`))
+          message.channel.send(new MessageEmbed().setColor("GREEN")
+            .setDescription(`**  Searching \`${args.join(" ")}\`**`))
         }
         queueConstruct.connection.voice.setSelfDeaf(true);
         queueConstruct.connection.voice.setDeaf(true);
@@ -140,7 +140,7 @@ serverQueue.songs.push(song);
         .setURL(song.url)
         .setColor("#20ff00")
         .setImage(thumb)
-        .setThumbnail(`https://media.discordapp.net/attachments/815252825012568085/815266512414703656/image0.png`)
+        .setThumbnail(`https://media.discordapp.net/attachments/859628813230932008/891358574276644935/image0.png `)
          .addField(" > Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
         .addField(" > Time:", `\`${song.duration} Minutes\``, true)
         .addField(" > Volume:", `\`100\``, true)
