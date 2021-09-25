@@ -100,7 +100,7 @@ client.on('message',async message => {
     let embed = new Discord.MessageEmbed()
     .setAuthor("SUGGESTION: " + message.author.tag, message.author.avatarURL())
     .setThumbnail(message.author.avatarURL())
-    .setColor("#ff2050")
+    .setColor("#20ff00")
     .setDescription(args.join(" "))
     .setTimestamp()
  
