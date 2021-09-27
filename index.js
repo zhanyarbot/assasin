@@ -591,9 +591,6 @@ client.on("message", message => {
 
 
 
-client.on("message", message => {zalm if (message.content.includes("discord.gg")) { if (!message.member.hasPermission("MANAGE_EMOJIS")) { message.delete(); message.reply("Notify the band the second time. Please don't advertise."); message.react("🚫"); } }});             کۆدی دژە ڕیکلام
-
-
 client.on(`ready`, () => {	
 //////////////
 
