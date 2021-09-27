@@ -106,8 +106,8 @@ client.on('message',async message => {
  
  
     channel.send(embed).then(m => {
-      m.react("✅")
-      m.react("❌")
+      m.react("👍🏻")
+      m.react("👎🏿")
     })
  
  
