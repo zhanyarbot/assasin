@@ -21,10 +21,9 @@ module.exports = {
    .setThumbnail(`https://media.discordapp.net/attachments/859628813230932008/892476491860963398/image0.png `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setDescription(`
-🔒 Locked Channel
+**__🔒 Locked Channel__**
 Channel Name : <#${message.channel.id}>
 Locked By : <@${message.author.id}>
-Channel Status : Send Message
 `)
    .setColor("#2ecc71");
    await message.channel.send(embed);
