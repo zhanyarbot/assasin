@@ -406,7 +406,7 @@ const embed = new Discord.MessageEmbed()
 
 .setTitle('Ban') 
 
-.setColor('RANDOM') 
+.setColor('GREEN') 
 
 .addField('kase ban kraw', Ban) 
 
