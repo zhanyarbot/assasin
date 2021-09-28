@@ -18,7 +18,7 @@ module.exports = {
    const embed = new Discord.MessageEmbed()
    .setTitle("")
    .setTimestamp()
-   .setThumbnail(message.author.avatarURL({dynamic: "true"}))
+   .setThumbnail(`https://media.discordapp.net/attachments/859628813230932008/892476491860963398/image0.png `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setDescription(`
 🔒 Locked Channel
