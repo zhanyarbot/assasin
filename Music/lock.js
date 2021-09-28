@@ -26,7 +26,7 @@ Channel Name : <#${message.channel.id}>
 Locked By : <@${message.author.id}>
 Channel Status : Send Message
 `)
-   .setColor("#146DF6");
+   .setColor("#2ecc71");
    await message.channel.send(embed);
 }
 }
