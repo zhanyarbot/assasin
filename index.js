@@ -665,7 +665,7 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("GREEN")
-    .setAuthor("About Peace Bot.", "")
+    .setAuthor("About Green Bot.", "")
     .setThumbnail(` `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
@@ -676,7 +676,10 @@ client.on(`message`, async (message) => {
 [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
 
 **{Owner Bot}** :
-“Omedᵖʰ’ᵈᵉᵛᵉˡᵒᵖᵉʳ#9909
+<@820702223847129138>
+
+**{Admin Bot}** :
+<@!697626887899447417>
 
 **{Set Status}** :
 Online
@@ -691,7 +694,7 @@ Online
 
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_4:822203026776391711>")
+    message.react("☀️")
   } 
 
 //An suuport announcement for everyone but no one knows so fine ^w^
@@ -709,13 +712,13 @@ Online
 [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**Support  Nito**`) 
+    .setTitle(`**Support Green Bot**`) 
     .setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
     .setTimestamp()
     
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_4:822203026776391711>")
+    message.react("🎗")
   }
 
 //client.on("guildCreate" , AQUAMAN => {
