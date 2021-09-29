@@ -58,24 +58,24 @@ const search = args.join(" ");
       if (serverQueue) {
         if (urlValid) {
           message.channel.send(new MessageEmbed().setColor("GREEN")
-            .setDescription(`**> Searching  [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`** Searching  [\`LINK\`](${args.join(" ")})**`))
         }
         else {
           message.channel.send(new MessageEmbed().setColor("GREEN")
-            .setDescription(`**> Searching \`${args.join(" ")}\`**`))
+            .setDescription(`** Searching \`${args.join(" ")}\`**`))
         }
       } else {
         queueConstruct.connection = await channel.join();
         message.channel.send(new MessageEmbed().setColor("GREEN")
-          .setDescription(`**> Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
+          .setDescription(`** Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         if (urlValid) { 
           message.channel.send(new MessageEmbed().setColor("GREEN")
-            .setDescription(`**> Searching  [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`** Searching  [\`LINK\`](${args.join(" ")})**`))
         }
         else {
           message.channel.send(new MessageEmbed().setColor("GREEN")
-            .setDescription(`**> Searching \`${args.join(" ")}\`**`))
+            .setDescription(`** Searching \`${args.join(" ")}\`**`))
         }
         queueConstruct.connection.voice.setSelfDeaf(true);
         queueConstruct.connection.voice.setDeaf(true);
@@ -140,10 +140,10 @@ serverQueue.songs.push(song);
         .setColor("GREEN")
         .setImage(thumb)
         .setThumbnail(`https://images-ext-2.discordapp.net/external/sgK9ggHfs-bLZHFzmiOg9V6pw5w0qsW4sN00kU4qMtQ/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/807350534901071932/b25a811f2d1306df4c30e34e302bd6c7.png `)
-         .addField("> Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
-        .addField("> Length:", `\`${song.duration} Minutes\``, true)
-        .addField("> Volume:", `\`100\``, true)
-        .addField("> Position in queue:", `**\`${serverQueue.songs.length - 1}\`**`, true)
+         .addField("Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
+        .addField("Length:", `\`${song.duration} Minutes\``, true)
+        .addField("Volume:", `\`100\``, true)
+        .addField("Position in queue:", `**\`${serverQueue.songs.length - 1}\`**`, true)
         return serverQueue.textChannel
         .send(newsong)
         .catch(console.error);
