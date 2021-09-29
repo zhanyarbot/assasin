@@ -666,7 +666,7 @@ client.on(`message`, async (message) => {
     const embed = new Discord.MessageEmbed()
     .setColor("GREEN")
     .setAuthor("About Green Bot.", "")
-    .setThumbnail(` `)
+    .setThumbnail(``)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
@@ -711,7 +711,7 @@ Online
 -
 [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
-    .setImage(``)
+    .setImage(`https://media.discordapp.net/attachments/892861173081448458/892861189309235270/image0.png `)
     .setTitle(`**Support Green Bot**`) 
     .setThumbnail(`https://cdn.discordapp.com/avatars/837016151795564544/6813aeeea7e579ff5666bc9e902cb4c2.png?size=1024 `)
     .setTimestamp()
