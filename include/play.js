@@ -167,7 +167,7 @@ module.exports = {
       switch (reaction.emoji.name) {
        
         //np
-        case "🕛":
+        case "<:emoji_14:893125172884799488>":
         reaction.users.remove(user).catch(console.error);
         const song = queue.songs[0];
         //get current song duration in s
@@ -204,7 +204,7 @@ module.exports = {
         
         break;
         //skip
-        case "⏩":
+        case "<:p3:893123009680908288>":
           queue.playing = true;
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
@@ -216,7 +216,7 @@ module.exports = {
 
           break;
         //pause
-        case "⏯":
+        case "<:p4:893123009865461811>":
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
           if (queue.playing) {
@@ -234,7 +234,7 @@ module.exports = {
           }
           break;
           //loop  
-        case "🔁":
+        case "<:p2:893123009605410836>":
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
           queue.loop = !queue.loop;
@@ -243,7 +243,7 @@ module.exports = {
           queue.textChannel.send(loopembed).catch(console.error);
           break;
           //stop
-        case "⏹️":
+        case "<:p1:893123009454440449>":
           reaction.users.remove(user).catch(console.error);
           if (!canModifyQueue(member)) return;
           queue.songs = [];
