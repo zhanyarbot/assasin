@@ -3,7 +3,7 @@ const db = require('quick.db');
 module.exports = {
     name:"addcredits",
      run: async(client, message, args) => {
-        const ownerId = "حط ايديك هني" // this is my id but you wanna put your id here.
+        const ownerId = "820702223847129138" // this is my id but you wanna put your id here.
 
         if(message.author.id !== ownerId) {
             return message.channel.send(`Sorry! Only the bot developer can use this command.`)
