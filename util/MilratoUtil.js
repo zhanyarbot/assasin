@@ -10,12 +10,12 @@ module.exports = {
     //define the EMBED
     let resultsEmbed = new MessageEmbed()
       .setTitle("You must be in the Same Voice Channel as me!")
-      .setColor("PURPLE")
+      .setColor("GREEN")
     //wenn memberchannel nicht der botchannel ist
     if (member.voice.channel !== member.guild.me.voice.channel) {
     //Send the message to the MEMBER
       member.send(resultsEmbed);
-      member.react("<:emoji_4:822203026776391711>")
+      member.react("💚")
       //return false that it ends the command
       return false;
     }
