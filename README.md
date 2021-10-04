@@ -7,7 +7,7 @@
 
 An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like Bassboost, Nightcore, etc. and reaction interactivity. Based on ytdl-core with discord.js Guide Handler. With ideas from eritislami 
 
-You can always [invite](https://bit.ly/Musicium) the Bot to your Server if you wish, its public and you can use it!
+You can always [invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot) the Bot to your Server if you wish, its public and you can use it!
 
 ### **IMPORTANT!** 
 
@@ -96,27 +96,7 @@ You can always Support me by inviting one of my **own Discord Bots**
 
 ## Credits
 
-[@eritislami](https://github.com/eritislami/) For the Reacting system to messages, great Idea i adopted that [@iCrawl/evobot](https://github.com/eritislami/evobot)
+[@eritislami]() For the Reacting system to messages, great Idea i adopted that [@iCrawl/evobot](https://github.com/eritislami/evobot)
 
 ## emojis
-
-[![](https://cdn.discordapp.com/emojis/770290491731476500.png)](https://cdn.discordapp.com/emojis/770290491731476500.png) 
-[![](https://cdn.discordapp.com/emojis/769675858431705109.png)](https://cdn.discordapp.com/emojis/769675858431705109.png) 
-[![](https://cdn.discordapp.com/emojis/769933892014440448.png)](https://cdn.discordapp.com/emojis/769933892014440448.png) 
-[![](https://cdn.discordapp.com/emojis/769932569235292170.png)](https://cdn.discordapp.com/emojis/769932569235292170.png) 
-[![](https://cdn.discordapp.com/emojis/769932441946816542.png)](https://cdn.discordapp.com/emojis/769932441946816542.png) 
-[![](https://cdn.discordapp.com/emojis/769932441909067786.png)](https://cdn.discordapp.com/emojis/769932441909067786.png) 
-[![](https://cdn.discordapp.com/emojis/769932441967263754.png)](https://cdn.discordapp.com/emojis/769932441967263754.png) 
-[![](https://cdn.discordapp.com/emojis/769915194444480542.png)](https://cdn.discordapp.com/emojis/769915194444480542.png) 
-[![](https://cdn.discordapp.com/emojis/769912238236106793.png)](https://cdn.discordapp.com/emojis/769912238236106793.png) 
-[![](https://cdn.discordapp.com/emojis/769913064194834511.png)](https://cdn.discordapp.com/emojis/769913064194834511.png) 
-[![](https://cdn.discordapp.com/emojis/769915194066862080.png)](https://cdn.discordapp.com/emojis/769915194066862080.png) 
-[![](https://cdn.discordapp.com/emojis/770266575839952936.png)](https://cdn.discordapp.com/emojis/770266575839952936.png) 
-[![](https://cdn.discordapp.com/emojis/769945882120028160.png)](https://cdn.discordapp.com/emojis/769945882120028160.png) 
-[![](https://cdn.discordapp.com/emojis/769935094285860894.gif)](https://cdn.discordapp.com/emojis/769935094285860894.gif) 
-[![](https://cdn.discordapp.com/emojis/769665713124016128.png)](https://cdn.discordapp.com/emojis/769665713124016128.png) 
-[![](https://cdn.discordapp.com/emojis/769940554481532938.png)](https://cdn.discordapp.com/emojis/769940554481532938.png) 
-[![](https://cdn.discordapp.com/emojis/770326304473350145.png)](https://cdn.discordapp.com/emojis/770326304473350145.png) 
-[![](https://cdn.discordapp.com/emojis/769661787053752400.png)](https://cdn.discordapp.com/emojis/769661787053752400.png) 
-[![](https://cdn.discordapp.com/emojis/769938447279456296.png)](https://cdn.discordapp.com/emojis/769938447279456296.png) 
-[![](https://cdn.discordapp.com/emojis/770098066552258611.png)](https://cdn.discordapp.com/emojis/770098066552258611.png) 
+ 
