@@ -95,8 +95,3 @@ You can always Support me by inviting one of my **own Discord Bots**
 [![](https://cdn.discordapp.com/emojis/770098066552258611.png)](https://cdn.discordapp.com/emojis/770098066552258611.png) 
 
 ## Credits
-
-[@eritislami]() For the Reacting system to messages, great Idea i adopted that [@iCrawl/evobot](https://github.com/eritislami/evobot)
-
-## emojis
- 
