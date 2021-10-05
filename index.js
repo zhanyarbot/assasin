@@ -572,7 +572,7 @@ client.on(`message`, async (message) => {
 
   //information message when the bot has been tagged
   if(message.content.includes(client.user.id)) {
-    message.reply(new Discord.MessageEmbed().setColor("PURPLE").setAuthor(`${message.author.username}, My Prefix is ${prefix}, to get started; type ${prefix}help`, message.author.displayAvatarURL({dynamic:true})));
+    message.reply(new Discord.MessageEmbed().setColor("GREEN").setAuthor(`${message.author.username}, My Prefix is ${prefix}, to get started; type ${prefix}help`, message.author.displayAvatarURL({dynamic:true})));
   } 
 
 
@@ -697,7 +697,7 @@ Online
  });
   
  client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("856109396492419073");
+  let channel = client.channels.cache.get("888340176240271390");
   let embed = new MessageEmbed().setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -710,7 +710,7 @@ Online
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("856109396492419073");
+  let channel = client.channels.cache.get("888340198067429377");
   let embed = new MessageEmbed()
   .setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
