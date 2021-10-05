@@ -15,7 +15,7 @@ module.exports = {
 
         try {
             await member.ban();
-            await message.channel.send(`**${member} has been banned!**`)
+            await message.channel.send(`**${member} banned from the server! ✈️**`)
         } catch (e) {
             return message.channel.send(`**User is not in the server!**`)
         }
