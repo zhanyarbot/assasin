@@ -530,8 +530,8 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(`: ${PREFIX}help - Green Bot `, { type: "COMPETING"});
-    client.user.setActivity(`: ${PREFIX}help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "COMPETING"});
+    client.user.setActivity(`type: ${PREFIX}help - Green Bot `, { type: "PLAYING"});
+    client.user.setActivity(`type: ${PREFIX}help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
    
   
       }, (5000));
