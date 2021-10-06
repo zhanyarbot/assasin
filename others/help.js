@@ -19,31 +19,31 @@ module.exports = {
     .setTitle(`**Green Bot**`)
     .setDescription(`
     
-**__🟢┇Moderator__**
+**🟢┇Moderator**
 > \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
 > \`,ban\`  -  \`,unban\`  -  \`,sug\`
 
-**__🟢┇Funny__**
+**🟢┇Funny**
 > \`,slap\`  -  \`,kiss\`  -  \`,hug\`
 
-**__🟢┇Gif__**
+**🟢┇Gif**
 > \`,boy\`  -  \`,girl\`  -  \`,baby\`  -  \`,couple\`
 > \`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
 > \`,sad\`  -  \`,neon\`
 
-**__🟢┇Music__**
+**🟢┇Music**
 > \`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`  
 > \`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`
 > \`,search\`  -  \`,resume\`  -  \`,remove\`
 > \`,queue\`  -  \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
 
-**__🟢┇Everyone__**
+**🟢┇Everyone**
 > \`,invite\`  -  \`,support\`  -  \`,about\` - \`,ping\`
 > \`,prefix\`  -  \`,uptime\`
 
-**__🟢┇Link__**
-> [Support](https://discord.gg/DCYsfe4AR6)
-> [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
+**🟢┇Link**
+> [~~Support~~](https://discord.gg/DCYsfe4AR6)
+> [~~Invite~~](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("GREEN");
