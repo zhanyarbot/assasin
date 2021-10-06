@@ -690,14 +690,14 @@ Online
    command.execute(message, args, client);
  } catch (error) {
    console.error(error);
-   message.reply( new MessageEmbed().setColor("PURPLE")
+   message.reply( new MessageEmbed().setColor("GREEN")
    .setTitle(`There was an error executing that command.`)).catch(console.error);
  }
 
  });
   
  client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("888340176240271390");
+  let channel = client.channels.cache.get("");
   let embed = new MessageEmbed().setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -710,7 +710,7 @@ Online
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("888340198067429377");
+  let channel = client.channels.cache.get("");
   let embed = new MessageEmbed()
   .setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
