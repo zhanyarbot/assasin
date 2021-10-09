@@ -15,7 +15,7 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setThumbnail(``)
+    .setThumbnail(`https://media.discordapp.net/attachments/889872400777371738/896541561377157130/image0.gif `)
     .setTitle(`**Green Bot**`)
     .setDescription(`
     
