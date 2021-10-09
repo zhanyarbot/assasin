@@ -10,43 +10,41 @@ module.exports = {
   name: "help",
   aliases: ["h"],
   cooldown: 8,
-  description: "**all commands**",
+  description: "**all commands Pinky**",
   execute(message) {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setThumbnail(`https://media.discordapp.net/attachments/889872400777371738/896541561377157130/image0.gif `)
+    .setThumbnail(``)
+    .setImage(``)
     .setTitle(`**Green Bot**`)
     .setDescription(`
-    
+
 **📗┇Moderator**
 > \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
 > \`,ban\`  -  \`,unban\`  -  \`,sug\`
-
 **🐸┇Funny**
 > \`,slap\`  -  \`,kiss\`  -  \`,hug\`
-
 **💚┇Gif**
 > \`,boy\`  -  \`,girl\`  -  \`,baby\`  -  \`,couple\`
 > \`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
 > \`,sad\`  -  \`,neon\`
-
 **🐲┇Music**
 > \`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`  
 > \`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`
 > \`,search\`  -  \`,resume\`  -  \`,remove\`
 > \`,queue\`  -  \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
-
 **☘️┇Everyone**
 > \`,invite\`  -  \`,support\`  -  \`,about\` - \`,ping\`
 > \`,prefix\`  -  \`,uptime\`
-
 **♻️┇Link**
 > [Support](https://discord.gg/DCYsfe4AR6)
 > [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
+
 `)
+
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("GREEN");
+   .setColor("#2ecc71")
    message.react("🍀")
     return message.channel.send(helpEmbed).catch(console.error);
 
