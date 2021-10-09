@@ -51,28 +51,6 @@ client.on("message", message => {
   }
 });
 
-client.on("message", message => {
-    if(message.content.startsWith(prefix + "user")) {
-  var args = message.content.split(" ").slice(1);
-        let mention = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
-if(!mention) mention = message.member;
-//CopyRight X3mk + Naar Codes
-const userFlags = mention.user.flags.toArray();
-//CopyRight X3mk + Naar Codes
-        let embedx3 = new Discord.MessageEmbed()
-        .setColor(`GREEN`)
-        .setTitle(`${mention.user.username}`)
-                .setThumbnail(`${mention.user.displayAvatarURL()}`)
-        .addField(`**JOINED DISCORD:**`, `\`${moment(mention.createdAt).format('DD/MM/YYYY')}\``, true)
-        .addField(`**JOINED SERVER:**`, `\`${moment(mention.joinedAt).format('DD/MM/YYYY')}\``, true)
-                .setFooter(`${message.author.username}#${message.author.discriminator}`)
-        //CopyRight X3mk + Naar Codes        
-        message.channel.send(embedx3)
-        //CopyRight X3mk + Naar Codes
-        
-    }
-})
-
 client.on('message',  (message) => {
         if(message.content.startsWith(PREFIX + "hug")) {
   let user = message.mentions.users.first() 
