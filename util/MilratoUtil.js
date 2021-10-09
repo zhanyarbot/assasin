@@ -15,7 +15,7 @@ module.exports = {
     if (member.voice.channel !== member.guild.me.voice.channel) {
     //Send the message to the MEMBER
       member.send(resultsEmbed);
-      member.react("💚")
+      member.react("🛑")
       //return false that it ends the command
       return false;
     }
