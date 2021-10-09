@@ -19,7 +19,7 @@ module.exports = {
     .setTitle(`**Green Bot**`)
     .setDescription(`
     
-**🔰┇Moderator**
+**📗┇Moderator**
 > \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
 > \`,ban\`  -  \`,unban\`  -  \`,sug\`
 
@@ -31,7 +31,7 @@ module.exports = {
 > \`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
 > \`,sad\`  -  \`,neon\`
 
-**🧑‍🎤┇Music**
+**🐲┇Music**
 > \`,play\`  -  \`,skip\`  -  \`,skipto\`  -  \`,stop\`  
 > \`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`
 > \`,search\`  -  \`,resume\`  -  \`,remove\`
