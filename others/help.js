@@ -20,11 +20,12 @@ module.exports = {
     .setTitle(`**Green Bot**`)
     .setDescription(`
 
+**☘️┇Everyone**
+> \`,invite\`  -  \`,support\`  -  \`,about\` - \`,ping\`
+> \`,prefix\`  -  \`,uptime\`
 **📗┇Moderator**
 > \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
 > \`,ban\`  -  \`,unban\`  -  \`,sug\`
-**🐸┇Funny**
-> \`,slap\`  -  \`,kiss\`  -  \`,hug\`
 **💚┇Gif**
 > \`,boy\`  -  \`,girl\`  -  \`,baby\`  -  \`,couple\`
 > \`,anime\`  -  \`,cat\`  -  \`,cartoon\`  -  \`,smoke\`
@@ -34,9 +35,8 @@ module.exports = {
 > \`,volume\`  -  \`,nowplaying\`  -  \`,shuffle\`
 > \`,search\`  -  \`,resume\`  -  \`,remove\`
 > \`,queue\`  -  \`,loop\`  -  \`,lyrics\`  -  \`,radio\`
-**☘️┇Everyone**
-> \`,invite\`  -  \`,support\`  -  \`,about\` - \`,ping\`
-> \`,prefix\`  -  \`,uptime\`
+**🐸┇Funny**
+> \`,slap\`  -  \`,kiss\`  -  \`,hug\`
 **♻️┇Link**
 > [Support](https://discord.gg/DCYsfe4AR6)
 > [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
