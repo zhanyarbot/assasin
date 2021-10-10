@@ -21,8 +21,8 @@ module.exports = {
     .setDescription(`
 
 **☘️┇Everyone**
-\`,invite\`  -  \`,support\`  -  \`,about\` - \`,ping\`
-\`,prefix\`  -  \`,uptime\`
+\`,invite\`  -  \`,support\`  -  \`,about\`
+\`,prefix\`  -  \`,uptime\`  -  \`,ping\`
 
 **📗┇Moderator**
 \`,lock\`  -  \`,unlock\`  -  \`,clear\`  -  \`,kick\`
