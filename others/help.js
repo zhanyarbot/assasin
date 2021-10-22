@@ -43,8 +43,7 @@ module.exports = {
 \`,slap\`  -  \`,kiss\`  -  \`,hug\`
 
 **♻️┇Link**
-[Support](https://discord.gg/DCYsfe4AR6)
-[Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot)
+[Support](https://discord.gg/DCYsfe4AR6) - [Invite](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot) - [Vote](https://top.gg/bot/874800680269926420)
 
 `)
 
